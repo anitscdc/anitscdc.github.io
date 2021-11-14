@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<title>Coding and Design Club - ANITS - EEE</title>
+	<meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            font-family: sans-serif;
+            color: white;
+        }
+        body{
+            background: rgb(47,137,124);
+            background: linear-gradient(90deg, rgba(47,137,124,1) 0%, rgba(39,70,111,1) 41%, rgba(95,48,147,1) 100%);
+        }
+        header,footer{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        main{
+            width: 80%;
+            margin: 0 10%;
+            text-align: justify;
+        }
+        main div a button{
+            background: green;
+            padding: 9px;
+            border-radius: 7px;
+            border-color: white;
+            cursor: pointer;
+            transition-duration: 0.4s;
+        }
+        main div a button:hover{
+            transform: scale(1.05);
+            transition-duration: 0.4s;
+        }
+        header h1{
+            font-family: courier;
+        }
+        ul{
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+        }
+        ul a li{
+            margin: 0 10px;
+            border: solid;
+            padding: 10px;
+            border-radius: 7px;
+        }
+        ul a li:hover{
+            background-color: white;
+            color: darkblue;
+        }
+        ul a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+	<header>
+        <h1>Coding and Design Club</h1>
+        <nav>
+            <ul>
+                <a href='index.html'><li>Home</li></a>
+                <a href='about-us.html'><li>About Club</li></a>
+                <a href='#'><li style='background-color: white;color: darkblue;'>Upcoming Events</li></a>
+                <a href='previous-events.html'><li>Previous Events</li></a>
+                <a href='members.html'><li>Members</li></a>
+            </ul>
+        </nav>
+	</header>
+	<main>
+        <h1>Upcoming Events</h1>
+        <div>
+            <h2>Coding contest</h2>
+            <p>This is a paragraph written in this page to enhance the appearence of this demo webpage.</p>
+            <a href='https://forms.gle/uFx2jecj442sYpBz7'><button>Register</button></a>
+        </div>
+        <div>
+            <h2>Design contest</h2>
+            <p>This is a paragraph written in this page to enhance the appearence of this demo webpage.</p>
+            <a href='https://forms.gle/uFx2jecj442sYpBz7'><button>Register</button></a>
+        </div>
+	</main>
+	<footer>
+	   <p>Copyright &copy; Coding and Design Club - Electrical and Electronics Engineering - ANITS</p>
+	</footer>
+</body>
+</html>
